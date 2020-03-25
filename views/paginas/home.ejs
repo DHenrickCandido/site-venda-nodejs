@@ -1,0 +1,245 @@
+
+<%- contentFor('body') %>
+<%var i = 0;%>
+<div class="container">
+	<div class="row">
+             
+		<div class="col-md-12">
+			<h2><b>Produtos</b></h2>
+			<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
+			<!-- Carousel indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>   
+            <!-- Wrapper for carousel items -->
+              
+			<div class="carousel-inner">
+				<div class="item carousel-item active">
+                        
+					<div class="row">
+                            
+						<div class="col-sm-3">
+
+							<div class="thumb-wrapper">
+								<div class="img-box">
+									<img src="./img/<%=listaDeProdutos[i].imagem%>" class="img-responsive img-fluid" alt="">
+								</div>
+								<div class="thumb-content">
+                                    <h3><%= listaDeProdutos[i].Titulo%></h3>
+                                    <h5><%= listaDeProdutos[i].Plataforma%></h5>
+									<p class="item-price"><span>R$ <%=listaDeProdutos[i].Preco%></span></p>
+									<a href="/jogos-videogames/<%=listaDeProdutos[i].id%>" class="btn btn-primary">Comprar</a>
+								</div>						
+                            </div>
+                            <%i++;%>
+						</div>
+						<div class="col-sm-3">
+							<div class="thumb-wrapper">
+								<div class="img-box">
+									<img src="./img/<%=listaDeProdutos[i].imagem%>" class="img-responsive img-fluid" alt="">
+								</div>
+								<div class="thumb-content">
+                                    <h3><%=listaDeProdutos[i].Titulo%></h3>
+                                    <h5><%= listaDeProdutos[i].Plataforma%></h5>
+									<p class="item-price"> <span>R$ <%=listaDeProdutos[i].Preco%></span></p>
+
+									<a href="/jogos-videogames/<%=listaDeProdutos[i].id%>" class="btn btn-primary">Comprar</a>
+								</div>						
+                            </div>
+                            <%i++;%>
+						</div>		
+						<div class="col-sm-3">
+							<div class="thumb-wrapper">
+								<div class="img-box">
+									<img src="./img/<%=listaDeProdutos[i].imagem%>" class="img-responsive img-fluid" alt="">
+								</div>
+								<div class="thumb-content">
+                                    <h3><%=listaDeProdutos[i].Titulo%></h3>
+                                    <h5><%= listaDeProdutos[i].Plataforma%></h5>
+									<p class="item-price"><span>R$ <%=listaDeProdutos[i].Preco%></span></p>
+									<div class="star-rating">
+									</div>
+									<a href="/jogos-videogames/<%=listaDeProdutos[i].id%>" class="btn btn-primary">Comprar</a>
+								</div>						
+                            </div>
+                            <%i++;%>
+						</div>								
+						<div class="col-sm-3">
+							<div class="thumb-wrapper">
+								<div class="img-box">
+									<img src="./img/<%=listaDeProdutos[i].imagem%>" class="img-responsive img-fluid" alt="">
+								</div>
+								<div class="thumb-content">
+                                    <h3><%=listaDeProdutos[i].Titulo%></h3>
+                                    <h5><%= listaDeProdutos[i].Plataforma%></h5>
+									<p class="item-price"><span>R$ <%=listaDeProdutos[i].Preco%></span></p>
+									<div class="star-rating">
+									</div>
+									<a href="/jogos-videogames/<%=listaDeProdutos[i].id%>" class="btn btn-primary">Comprar</a>
+								</div>						
+                            </div>
+                            <%i++;%>
+						</div>
+					</div>
+				</div>
+				<div class="item carousel-item">
+					<div class="row">
+						<div class="col-sm-3">
+							<div class="thumb-wrapper">
+								<div class="img-box">
+									<img src="./img/<%=listaDeProdutos[i].imagem%>" class="img-responsive img-fluid" alt="">
+								</div>
+								<div class="thumb-content">
+                                    <h3><%=listaDeProdutos[i].Titulo%></h3>
+                                    <h5><%= listaDeProdutos[i].Plataforma%></h5>
+									<p class="item-price"><span>R$ <%=listaDeProdutos[i].Preco%></span></p>
+									<div class="star-rating">
+
+									</div>
+									<a href="/jogos-videogames/<%=listaDeProdutos[i].id%>" class="btn btn-primary">Comprar</a>
+								</div>						
+                            </div>
+                            <%i++;%>
+						</div>
+						<div class="col-sm-3">
+							<div class="thumb-wrapper">
+								<div class="img-box">
+									<img src="./img/<%=listaDeProdutos[i].imagem%>" class="img-responsive img-fluid" alt="">
+								</div>
+								<div class="thumb-content">
+                                    <h3><%=listaDeProdutos[i].Titulo%></h3>
+                                    <h5><%= listaDeProdutos[i].Plataforma%></h5>
+									<p class="item-price"><span>R$ <%=listaDeProdutos[i].Preco%></span></p>
+									<div class="star-rating">
+									</div>
+									<a href="/jogos-videogames/<%=listaDeProdutos[i].id%>" class="btn btn-primary">Comprar</a>
+								</div>						
+                            </div>
+                            <%i++;%>
+						</div>
+						<div class="col-sm-3">
+							<div class="thumb-wrapper">
+								<div class="img-box">
+									<img src="./img/<%=listaDeProdutos[i].imagem%>" class="img-responsive img-fluid" alt="">
+								</div>
+								<div class="thumb-content">
+                                    <h3><%=listaDeProdutos[i].Titulo%></h3>
+                                    <h5><%= listaDeProdutos[i].Plataforma%></h5>
+									<p class="item-price"><span>R$ <%=listaDeProdutos[i].Preco%></span></p>
+									<div class="star-rating">
+									</div>
+									<a href="/jogos-videogames/<%=listaDeProdutos[i].id%>" class="btn btn-primary">Comprar</a>
+								</div>						
+                            </div>
+                            <%i++;%>
+						</div>
+						<div class="col-sm-3">
+							<div class="thumb-wrapper">
+								<div class="img-box">
+									<img src="./img/<%=listaDeProdutos[i].imagem%>" class="img-responsive img-fluid" alt="">
+								</div>
+								<div class="thumb-content">
+                                    <h3><%=listaDeProdutos[i].Titulo%></h3>
+                                    <h5><%= listaDeProdutos[i].Plataforma%></h5>
+									<p class="item-price"><span>R$ <%= listaDeProdutos[i].Preco%></span></p>
+									<div class="star-rating">
+
+									</div>
+									<a href="/jogos-videogames/<%=listaDeProdutos[i].id%>" class="btn btn-primary">Comprar</a>
+								</div>						
+                            </div>
+                            <%i++;%>
+						</div>						
+					</div>
+				</div>
+				<div class="item carousel-item">
+					<div class="row">
+						<div class="col-sm-3">
+							<div class="thumb-wrapper">
+								<div class="img-box">
+									<img src="./img/<%=listaDeProdutos[i].imagem%>" class="img-responsive img-fluid" alt="">
+								</div>
+								<div class="thumb-content">
+                                        <h3><%=listaDeProdutos[i].Titulo%></h3>
+                                        <h5><%= listaDeProdutos[i].Plataforma%></h5>
+                                        <p class="item-price"><span>R$ <%= listaDeProdutos[i].Preco%></span></p>
+									<div class="star-rating">
+
+									</div>
+									<a href="/jogos-videogames/<%=listaDeProdutos[i].id%>" class="btn btn-primary">Comprar</a>
+								</div>						
+                            </div>
+                            <%i++;%>
+						</div>
+						<div class="col-sm-3">
+							<div class="thumb-wrapper">
+								<div class="img-box">
+									<img src="./img/<%=listaDeProdutos[i].imagem%>" class="img-responsive img-fluid" alt="">
+								</div>
+								<div class="thumb-content">
+                                        <h3><%=listaDeProdutos[i].Titulo%></h3>
+                                        <h5><%= listaDeProdutos[i].Plataforma%></h5>
+                                        <p class="item-price"><span>R$ <%= listaDeProdutos[i].Preco%></span></p>
+									<div class="star-rating">
+
+									</div>
+									<a href="/jogos-videogames/<%=listaDeProdutos[i].id%>" class="btn btn-primary">Comprar</a>
+								</div>						
+                            </div>
+                            <%i++;%>
+						</div>
+						<div class="col-sm-3">
+							<div class="thumb-wrapper">
+								<div class="img-box">
+									<img src="./img/<%=listaDeProdutos[i].imagem%>" class="img-responsive img-fluid" alt="">
+								</div>
+								<div class="thumb-content">
+                                        <h3><%=listaDeProdutos[i].Titulo%></h3>
+                                        <h5><%= listaDeProdutos[i].Plataforma%></h5>
+                                        <p class="item-price"><span>R$ <%= listaDeProdutos[i].Preco%></span></p>
+									<div class="star-rating">
+
+									</div>
+									<a href="/jogos-videogames/<%=listaDeProdutos[i].id%>" class="btn btn-primary">Comprar</a>
+								</div>						
+                            </div>
+                            <%i++;%>
+						</div>	
+						<div class="col-sm-3">
+							<div class="thumb-wrapper">
+								<div class="img-box">
+									<img src="./img/<%=listaDeProdutos[i].imagem%>" class="img-responsive img-fluid" alt="">
+								</div>
+								<div class="thumb-content">
+                                        <h3><%=listaDeProdutos[i].Titulo%></h3>
+                                        <h5><%= listaDeProdutos[i].Plataforma%></h5>
+                                        <p class="item-price"><span>R$ <%= listaDeProdutos[i].Preco%></span></p>
+									<div class="star-rating">
+
+									</div>
+									<a href="/jogos-videogames/<%=listaDeProdutos[i].id%>" class="btn btn-primary">Comprar</a>
+								</div>						
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+				</div>
+            </div>
+            
+			<!-- Carousel controls -->
+			<a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
+				<i class="fa fa-angle-left"></i>
+			</a>
+			<a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
+				<i class="fa fa-angle-right"></i>
+            </a>
+           
+        </div>
+        
+        </div>
+        
+	</div>
+</div>

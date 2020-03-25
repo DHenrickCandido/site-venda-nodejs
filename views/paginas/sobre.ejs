@@ -1,0 +1,18 @@
+
+<%- contentFor('body') %> 
+
+<div class="jumbotron text-center"> 
+
+        <h1>Conheça a nossa equipe!</h1> 
+        <div class="row"> 
+                <% for (usuario of usuarios){ %>    
+                     <div class="col-sm-4"> 
+                        <h2><%= usuario.nome %></h2>  
+                        <P><%= usuario.email %></P>
+                        <img class="img-responsive" 
+                        style="height: 200px" 
+                        src="<%= usuario.avatar %>">  
+                     </div> 
+                <% } %> 
+        </div> 
+</div>

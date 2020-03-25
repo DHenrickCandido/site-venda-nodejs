@@ -1,0 +1,42 @@
+
+<%- contentFor('body') %> 
+
+<!-- <div class="jumbotron text-center"> -->
+<!-- DEFINIÇÃO DO CORPO DA PAGINA -->
+             
+        <div class="container">
+        <div class="card">
+                <div class="container-fliud">
+                        <div class="wrapper row">
+                                <div class="preview col-md-6">
+                                        
+                                <div class="preview-pic tab-content">
+                                        <div class="tab-pane active" id="pic-1"><img src="../img/<%=listaDeProdutos[0].imagem%>" /></div>
+
+                                </div>
+                                <ul class="preview-thumbnail nav nav-tabs">
+                                        <li class="active"><a data-target="#pic-1" data-toggle="tab"><img src="../img/<%=listaDeProdutos[0].imagem%>" /></a></li>
+
+                                </ul>
+                                
+                        </div>
+                        <div class="details col-md-6">
+                                <h3 class="product-title"><%= listaDeProdutos[0].Titulo%> - <%= listaDeProdutos[0].Plataforma%></h3>
+                                <p class="product-description"><%=listaDeProdutos[0].descricao%></p>
+                                <p class="product-description"><b>Desenvolvedora:</b> <%=listaDeProdutos[0].desenvolvedora%></p>
+                                <p class="product-description"><b>Gênero:</b> <%=listaDeProdutos[0].genero%></p>
+                                <h4 class="price">Preço: <span>R$ <%=listaDeProdutos[0].Preco%></span></h4>
+                                <div class="action">
+                                        
+                                        
+                                        <a href="/jogos-videogames/carrinho/<%=listaDeProdutos[0].id%>" class="add-to-cart btn btn-default" type="button">Add ao carrinho</a>
+                                </div>
+                                </div>
+                        </div>
+                </div>
+        </div>
+	</div>
+                
+    
+</div>
+
